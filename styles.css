@@ -1,0 +1,24 @@
+.hero{
+    background-image: url("images/ramen.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+}
+
+.title{
+    font-size: 3rem;
+}
+
+.menu-items img{
+    aspect-ratio: 3/2;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+}
+
+ul li img{
+    filter: invert(100%);
+}

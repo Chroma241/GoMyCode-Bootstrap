@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand ps-4 text-white" ><h1>HICHIRAKU</h1></a>
+                <button class="navbar-toggler" type='button' data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  ms-auto mb-2 mb-lg-0 pe-5">
+                        <li class="nav-item">
+                            <a href="" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link active">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link active">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link active">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <section class="hero px-4 py-5 my-0 text-center d-flex flex-column align-items-center justify-content-center">
+            <h2 class="display-3 fw-bold text-black bg-white p-4 bg-opacity-75">WELCOME TO HICHIRAKU RAMEN</h2>
+            <button class="text-center btn btn-light p-3 fw-bold fs-4">Order Now</button>
+        </section>
+        
+    </header>
+    <main>
+        <section class="container-fluid row text-center ms-0 my-5 d-flex flex-row ml-5 justify-content-center" id="menu">
+            <h2 class="text-decoration-underline pb-4 title">Our Menu</h2>
+
+            <div class="left col-md-4 col-sm-10 ">
+                <div class="menu-items text-start pb-5">
+                    <img class="img-fluid" src="images/bg-ramen.jpg" alt="">
+                    <h3 class="pt-3">Ramen Shoyu</h3>
+                    <p>Shōyu ramen is a light brown broth made from chicken and vegetables</p>
+                    <p class="fw-bold">6.000 CFO</p>
+                </div>
+                <div class="menu-items text-start pb-5">
+                    <img class="img-fluid" src="images/ramen.jpg" alt="">
+                    <h3 class="pt-3">Ramen Miso</h3>
+                    <p>Noodles served in a Miso broth, with braised pork, shiitake mushrooms, spinach and green onions.</p>
+                    <p class="fw-bold">23.000 CFO</p>
+                </div>
+                
+            </div>
+            <div class="left col-md-4 col-sm-10 ">
+                <div class="menu-items text-start pb-5">
+                    <img class="img-fluid" src="images/meet.jpg" alt="">
+                    <h3 class="pt-3">Yakiniku Wagyu</h3>
+                    <p>Yakiniku Wagyu: Selection of thin slices of Wagyu beef grilled to perfection, accompanied by sautéed vegetables and fragrant rice.</p>
+                    <p class="fw-bold">4.000 CFO</p>
+                </div>
+                <div class="menu-items text-start pb-5">
+                    <img class="img-fluid" src="images/Tonkatsu.jpg" alt="">
+                    <h3 class="pt-3">Tonkatsu Curry</h3>
+                    <p>Breaded pork escalope topped with spicy Japanese curry, accompanied by Japanese rice and pickles.</p>
+                    <p class="fw-bold">23.000 CFO</p>
+                </div>
+                
+            
+        </section>
+        <section class=" mb-5 container-fluid row justify-content-center" id="about-us">
+            
+            <div class="col-md-4 image col-sm-10">
+                <img  class="img-fluid" src="images/images.webp" alt="">
+            </div>
+            <div class="col-md-4 paragraph col-sm-10 mt-3">
+                <h2 class="text-decoration-underline title">About Us</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, soluta beatae quaerat neque eaque doloribus, voluptatum ad nisi aliquid, sequi aliquam! Possimus ex, placeat modi quas libero dolor ut quo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dignissimos, adipisci aliquam possimus obcaecati natus nobis commodi maiores dicta magnam dolorem, vitae quod alias repudiandae enim sequi! Maiores, quod earum?</p>
+            </div>
+        </section>
+        <section class="container mt-5" id="contact">
+            <h2 class="text-center text-decoration-underline title ">Contact us</h2>
+            <form action="#">
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="name" placeholder="Your name">
+                    <label for="name" >Name</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="email" name="email" id="email" class="form-control" placeholder="your email">
+                    <label for="email" class="form-label">Email</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <textarea name="message" id="message" class="form-control" placeholder="Your message" style="height: 200px;" ></textarea>
+                    <label for="message" class="form-label">Message</label>
+                </div>
+
+                <button type="submit" class="btn btn-danger">Submit</button>
+            </form>
+        </section>
+
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-5 border-top bg-dark ">
+            <div class="col-md-4 d-flex align-items-center ps-5">
+                <span class=" text-white">&copy; 2024 HICHIRAKU Company, Inc</span>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex pe-5">
+                <li class="ms-3"><a class="text-muted" href="#"><img src="images/icons/facebook.svg" alt=""></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><img src="images/icons/instagram.svg" alt=""></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><img src="images/icons/twitter-x.svg" alt=""></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><img src="images/icons/youtube.svg" alt=""></a></li>
+            </ul>
+        </footer>
+    </main>
+    
+    
+</body>
+</html>
